@@ -1,4 +1,4 @@
-module main
+module github.com/rubroboletus/skbn
 
 go 1.17
 
