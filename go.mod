@@ -9,7 +9,6 @@ require (
 	github.com/aws/aws-sdk-go v1.40.43
 	github.com/djherbis/buffer v1.2.0
 	github.com/maorfr/skbn v0.0.0-20190316071936-3d8a7af7e620
-	github.com/rubroboletus/skbn v0.0.0-20190316071936-3d8a7af7e620
 	github.com/spf13/cobra v1.2.1
 	google.golang.org/api v0.44.0
 	gopkg.in/djherbis/nio.v2 v2.0.3
