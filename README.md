@@ -1,9 +1,3 @@
-[![Release](https://img.shields.io/github/release/maorfr/skbn.svg)](https://github.com/maorfr/skbn/releases)
-[![Travis branch](https://img.shields.io/travis/maorfr/skbn/master.svg)](https://travis-ci.org/maorfr/skbn)
-[![Docker Pulls](https://img.shields.io/docker/pulls/maorfr/skbn.svg)](https://hub.docker.com/r/maorfr/skbn/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/maorfr/skbn)](https://goreportcard.com/report/github.com/maorfr/skbn)
-[![license](https://img.shields.io/github/license/maorfr/skbn.svg)](https://github.com/maorfr/skbn/blob/master/LICENSE)
-
 # Skbn
 
 Skbn is a tool for copying files and directories between Kubernetes and cloud storage providers. It is named after the 1981 video game [Sokoban](https://en.wikipedia.org/wiki/Sokoban).
@@ -20,17 +14,12 @@ Skbn currently supports the following providers:
 ### Prerequisites
 
 1. git
-2. [dep](https://github.com/golang/dep)
-
-### From a release
-
-Download the latest release from the [Releases page](https://github.com/maorfr/skbn/releases) or use it with a [Docker image](https://hub.docker.com/r/maorfr/skbn)
 
 ### From source
 
 ```
-mkdir -p $GOPATH/src/github.com/maorfr && cd $_
-git clone https://github.com/maorfr/skbn.git && cd skbn
+mkdir -p $GOPATH/src/github.com/rubroboletus && cd $_
+git clone https://github.com/rubroboletus/skbn.git && cd skbn
 make
 ```
 

@@ -3,7 +3,7 @@ GIT_BRANCH := $(shell git branch | grep \* | cut -d ' ' -f2)
 GIT_HASH := $(GIT_BRANCH)/$(shell git log -1 --pretty=format:"%H")
 TIMESTAMP := $(shell date '+%Y-%m-%d_%I:%M:%S%p')
 REGISTRY := ghcr.io
-REPO := $(REGISTRY)/skbn
+REPO ?= $(REGISTRY)/skbn
 IMAGE_TAG := $(GIT_VERSION)
 GOOS := $(shell go env GOOS)
 PACKAGE := github.com/rubroboletus/skbn
