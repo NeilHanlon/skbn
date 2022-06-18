@@ -8,6 +8,9 @@ builds:
   - linux
   goarch:
   - amd64
+  - arm64
+  - s390x
+  - ppc64le
   env:
   - CGO_ENABLED=0
   ldflags:
